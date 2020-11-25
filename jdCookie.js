@@ -6,7 +6,8 @@
 let CookieJDs = [
   'pt_key=AAJft6x_ADCCrOoVQL6gF_STLp3XgbBCqb_TJN3QyADkMos3S7qiVTEYmMh2FJh77Vwnh_3m0SE;pt_pin=jd_747b09621bf28;',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
   'pt_key=AAJfvlkCADB-L_3L4DkZyjm0L67EF5_vqHedq_oPA0uAN4ofXFk8Upbt-6lH-NzBXpeYRYmYQKk;pt_pin=jd_XcSCPXDlmrYz;',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
-  'pt_key=AAJfvlcNADBA_-rAU_WNyGO3rLJLIkjfJONvyMnyTraGJj4AHNYWCwUDSzj1a7R8X2Wz4eUMV2w;pt_pin=jd_7fc1e0fb0afd0;'
+  'pt_key=AAJfvlcNADBA_-rAU_WNyGO3rLJLIkjfJONvyMnyTraGJj4AHNYWCwUDSzj1a7R8X2Wz4eUMV2w;pt_pin=jd_7fc1e0fb0afd0;',
+  'pt_key=AAJfvm9cADC_xO963lphgUc9SQwrFA9DDx5sYbQeOW7dF47ngvHxOuVTGBpOf4z5O77VnkCIqFM; pt_pin=jd_6127dbf3213c4;',
 ]
 // 判断github action里面是否有京东ck
 if (process.env.JD_COOKIE) {
