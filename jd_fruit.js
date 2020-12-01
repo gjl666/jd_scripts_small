@@ -50,7 +50,7 @@ const urlSchema = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%2
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
       $.UserName = decodeURIComponent(cookie.match(/pt_pin=(.+?);/) && cookie.match(/pt_pin=(.+?);/)[1])
-      $.index = i + 1;
+      $.index = i + 5;
       $.isLogin = true;
       $.nickName = '';
       await TotalBean();
