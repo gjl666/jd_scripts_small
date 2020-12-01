@@ -45,7 +45,7 @@ if ($.isNode()) {
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
       $.UserName = decodeURIComponent(cookie.match(/pt_pin=(.+?);/) && cookie.match(/pt_pin=(.+?);/)[1])
-      $.index = i + 1;
+      $.index = i + 5;
       $.beanCount = 0;
       $.incomeBean = 0;
       $.expenseBean = 0;
