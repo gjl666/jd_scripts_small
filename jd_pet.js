@@ -49,7 +49,7 @@ let randomCount = $.isNode() ? 20 : 5;
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
       $.UserName = decodeURIComponent(cookie.match(/pt_pin=(.+?);/) && cookie.match(/pt_pin=(.+?);/)[1])
-      $.index = i + 1;
+      $.index = i + 5;
       $.isLogin = true;
       $.nickName = '';
       await TotalBean();
