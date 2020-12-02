@@ -10,7 +10,7 @@
 let shareCodes = [
   '9HrjKGtoNVWIJ670Xwv64g==@ToVOAg5VKQfifj9-UpoBcQ==',//账号一的好友shareCode,不同好友中间用@符号隔开
   '9PTVycVuwp91vvJCH63Mjw==@ToVOAg5VKQfifj9-UpoBcQ==',//账号二的好友shareCode，不同好友中间用@符号隔开
-  '9PTVycVuwp91vvJCH63Mjw==9HrjKGtoNVWIJ670Xwv64g=='
+  '9PTVycVuwp91vvJCH63Mjw==@9HrjKGtoNVWIJ670Xwv64g=='
 ]
 // 判断github action里面是否有东东萌宠互助码
 if (process.env.DREAM_FACTORY_SHARE_CODES) {
