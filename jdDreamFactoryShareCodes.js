@@ -18,8 +18,7 @@
 
 let shareCodes = [
 
-  '',//账号一的好友shareCode,不同好友中间用@符号隔开
-
+  '9PTVycVuwp91vvJCH63Mjw==',//账号一的好友shareCode,不同好友中间用@符号隔开
   '9PTVycVuwp91vvJCH63Mjw==',//账号二的好友shareCode，不同好友中间用@符号隔开
   '9PTVycVuwp91vvJCH63Mjw==',
   '9PTVycVuwp91vvJCH63Mjw==',
