@@ -5,7 +5,7 @@
 //注：github action用户cookie填写到Settings-Secrets里面，新增JD_COOKIE，多个账号的cookie使用`&`隔开或者换行
 let CookieJDs = [
   'pt_key=AAJf0vK9ADBDpcYevT8ntLKjRXpPfSzdFdfpZN3Uu1XyEG4YEZxORcAIqMnzWBdcFb7TIby1yAE;pt_pin=jd_LEQxnkUEQAkv;',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
-  '',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
+  'pt_key=AAJf1LFvADAWuXfAljyV2LdD0beMyF7ps7HyHg5HxG_6gUm3aEZpjvtyWQIVTYTRGEcoLq9rnw0;pt_pin=jd_aXuQgNEmbDge;',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
   '',
   '',
   '',
