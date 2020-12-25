@@ -22,6 +22,7 @@ let shareCodes = [
   '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg=='
 ]
 
+
 // 判断github action里面是否有东东萌宠互助码
 
 if (process.env.DREAM_FACTORY_SHARE_CODES) {
@@ -55,5 +56,4 @@ for (let i = 0; i < shareCodes.length; i++) {
   const index = (i + 1 === 1) ? '' : (i + 1);
 
   exports['shareCodes' + index] = shareCodes[i];
-
 }

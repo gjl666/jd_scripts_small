@@ -13,7 +13,7 @@ let PlantBeanShareCodes = [
   '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@dhsx55vjyuzkxl5x3amgx3mdpr2na2zr7d26ioy@olmijoxgmjutzvn3s3zlf463byc6x4u2c2damga@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
   '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@4npkonnsy7xi2jmhdz3ogzm63cmgfph2qvsashi@dhsx55vjyuzkxl5x3amgx3mdpr2na2zr7d26ioy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
 ]
-// 判断github action里面是否有东东萌宠互助码
+// 判断github action里面是否有种豆得豆互助码
 if (process.env.PLANT_BEAN_SHARECODES) {
   if (process.env.PLANT_BEAN_SHARECODES.indexOf('&') > -1) {
     console.log(`您的种豆互助码选择的是用&隔开\n`)
