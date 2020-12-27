@@ -64,8 +64,6 @@ let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好�
 
         if ($.isNode()) {
           await notify.sendNotify(`${$.name}cookie已失效 - ${$.UserName}`, `京东账号${$.index} ${$.UserName}\n请重新登录获取cookie`);
-        } else {
-          $.setdata('', `CookieJD${i ? i + 1 : "" }`);//cookie失效，故清空cookie。$.setdata('', `CookieJD${i ? i + 1 : "" }`);//cookie失效，故清空cookie。
         }
         continue
       }
@@ -323,27 +321,27 @@ async function businessCircleActivity() {
         let Teams = [
           {
             "teamId": "-4msulYas0O2JsRhE-2TA5XZmBQ_1604247312176",
-            "inviteCode": "-4msulYas0O2JsRhE-2TA5XZmBQ"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           },
           {
             "teamId": "Ih4-a-mwZPUj9Gy6iw_1604277683224",
-            "inviteCode": "eU9Yar_mb_9z92_WmXNG0w"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           },
           {
             "teamId": "eU9Ya77gZK5z-TqHn3UWhQ_1604277779750",
-            "inviteCode": "eU9YaOnjYK4j-GvWmXIWhA"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "eU9YaLm0bq4i-TrUzSUUhA"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "aURoM7PtY_Q"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           },
           {
             "teamId": "eU9Ya-y2N_5z9DvXwyIV0A",
-            "inviteCode": "eU9YaeS3Z6ol8zrRmnMb1Q"
+            "inviteCode": "eU9Ya-i1NPwv92zUmSUR3g"
           }
         ]
         Teams = $.updatePkActivityIdRes['Teams'] || Teams;
@@ -1382,7 +1380,8 @@ function requireConfig() {
       cookiesArr = cookiesData.map(item => item.cookie);
       cookiesArr.reverse();
       cookiesArr.push(...[$.getdata('CookieJD2'), $.getdata('CookieJD')]);
-      cookiesArr.reverse();
+  cookiesArr.reverse();
+  cookiesArr = cookiesArr.filter(item => item !== "" && item !== null && item !== undefined);
     }
     console.log(`共${cookiesArr.length}个京东账号\n`);
     console.log(`京小超已改版,目前暂不用助力, 故无助力码`)
