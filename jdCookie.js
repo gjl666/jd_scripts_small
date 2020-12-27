@@ -5,9 +5,7 @@
 //注：github action用户cookie填写到Settings-Secrets里面，新增JD_COOKIE，多个账号的cookie使用`&`隔开或者换行
 let CookieJDs = [
   'pt_key=AAJf1K9YADCOZ2egbGs2vOKWwN0TL0XmnTZJ95nXCZnVT3IJZW42ZMrNQGy1tXTmcEgXvZgixAE;pt_pin=jd_747b09621bf28;',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
-  'pt_key=AAJfvlcNADBA_-rAU_WNyGO3rLJLIkjfJONvyMnyTraGJj4AHNYWCwUDSzj1a7R8X2Wz4eUMV2w; pt_pin=jd_7fc1e0fb0afd0; ',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
-  'pt_key=AAJfvlkCADB-L_3L4DkZyjm0L67EF5_vqHedq_oPA0uAN4ofXFk8Upbt-6lH-NzBXpeYRYmYQKk; pt_pin=jd_XcSCPXDlmrYz;',
-  'pt_key=AAJf5tnKADBsH9JuNdnRdCwF9sozKoYt7CGTAP2ZE4IYTHcbnfTfsC9z7mZl6tR0qgMbVrptZNc; pt_pin=jd_6127dbf3213c4; ',
+  'pt_key=AAJf5tnKADBsH9JuNdnRdCwF9sozKoYt7CGTAP2ZE4IYTHcbnfTfsC9z7mZl6tR0qgMbVrptZNc; pt_pin=jd_6127dbf3213c4;',
 ]
 // 判断github action里面是否有京东ck
 if (process.env.JD_COOKIE) {
