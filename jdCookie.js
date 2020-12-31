@@ -9,7 +9,7 @@ let CookieJDs = [
   'pt_key=AAJf1LFvADAWuXfAljyV2LdD0beMyF7ps7HyHg5HxG_6gUm3aEZpjvtyWQIVTYTRGEcoLq9rnw0;pt_pin=jd_aXuQgNEmbDge;',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
   'pt_key=AAJf2vyPADAFlM3y75c85v9JmlW3T-HMblKqfkIxC0adcGFcFHrGfeHQpEbSKwEbL1E55f05yqc;pt_pin=jd_66496460e9735;',
   'pt_key=AAJf3J1LADCeIUqtxSugDaPdtgwFxWL1lD4diH5l4VCDKZah7RIiZVaVdIteCBI_dOwI1z32_4I;pt_pin=jd_5f26b31fb89ac;',
-  '',
+  'pt_key=AAJf6o7GADAdEL_Esr9nO_aDTMYCg8Lz-QGO6LlCTdjSEmAAud7vhGf94ifrKnYq_914HEEsFgU;pt_pin=jd_481bdca8990ee;',
 ]
 // 判断github action里面是否有京东ck
 if (process.env.JD_COOKIE) {
