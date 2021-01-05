@@ -19,7 +19,9 @@ let shareCodes = [
   '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',//账号一的好友shareCode,不同好友中间用@符号隔开
   '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',//账号二的好友shareCode，不同好友中间用@符号隔开
   '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',
-  '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg=='
+  '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',
+  '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',
+  '9PTVycVuwp91vvJCH63Mjw==@EhhPaW6clCJFPTkpng8bQg==',
 ]
 
 
