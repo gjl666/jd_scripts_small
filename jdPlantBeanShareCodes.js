@@ -12,6 +12,9 @@ let PlantBeanShareCodes = [
   '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',//账号二的好友shareCode，不同好友中间用@符号隔开
   '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
   '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
+  '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
+  '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
+  '4npkonnsy7xi2x6e5vfj67p32c2wyto77vfvnfy@rj7s6mzlk7uohk6kxwt66i3yrtjarlrb3vywtni',
 ]
 // 判断github action里面是否有种豆得豆互助码
 if (process.env.PLANT_BEAN_SHARECODES) {
