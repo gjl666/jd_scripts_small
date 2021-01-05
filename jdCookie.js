@@ -10,6 +10,7 @@ let CookieJDs = [
   'pt_key=AAJf2vyPADAFlM3y75c85v9JmlW3T-HMblKqfkIxC0adcGFcFHrGfeHQpEbSKwEbL1E55f05yqc;pt_pin=jd_66496460e9735;',
   'pt_key=AAJf3J1LADCeIUqtxSugDaPdtgwFxWL1lD4diH5l4VCDKZah7RIiZVaVdIteCBI_dOwI1z32_4I;pt_pin=jd_5f26b31fb89ac;',
   'pt_key=AAJf6o7GADAdEL_Esr9nO_aDTMYCg8Lz-QGO6LlCTdjSEmAAud7vhGf94ifrKnYq_914HEEsFgU;pt_pin=jd_481bdca8990ee;',
+
 ]
 // 判断github action里面是否有京东ck
 if (process.env.JD_COOKIE) {
@@ -19,19 +20,14 @@ if (process.env.JD_COOKIE) {
   } else if (process.env.JD_COOKIE.indexOf('\n') > -1) {
     console.log(`您的cookie选择的是用换行隔开\n`)
     CookieJDs = process.env.JD_COOKIE.split('\n');
-  } else if (process.env.JD_COOKIE.indexOf('\\n') > -1) {
-    //环境变量兼容腾讯云和docker下\n会被转义成\\n
-    console.log(`您的cookie选择的是用换行隔开\\n`)
-    CookieJDs = process.env.JD_COOKIE.split('\\n');
   } else {
     CookieJDs = [process.env.JD_COOKIE];
   }
-  CookieJDs = [...new Set(CookieJDs)]
-  console.log(`\n====================共有${CookieJDs.length}个京东账号Cookie=========\n`);
-  console.log(`==================脚本执行- 北京时间(UTC+8)：${new Date(new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*60*60*1000).toLocaleString()}=====================\n`)
-  // console.log(`\n==================脚本执行来自 github action=====================\n`)
 }
+CookieJDs = [...new Set(CookieJDs.filter(item => item !== "" && item !== null && item !== undefined))]
+console.log(`\n====================共有${CookieJDs.length}个京东账号Cookie=========\n`);
+console.log(`==================脚本执行- 北京时间(UTC+8)：${new Date(new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*60*60*1000).toLocaleString()}=====================\n`)
 for (let i = 0; i < CookieJDs.length; i++) {
   const index = (i + 1 === 1) ? '' : (i + 1);
-  exports['CookieJD' + index] = CookieJDs[i];
+  exports['CookieJD' + index] = CookieJDs[i].trim();
 }

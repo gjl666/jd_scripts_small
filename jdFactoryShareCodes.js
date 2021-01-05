@@ -14,6 +14,8 @@ let shareCodes = [
   'P04z54XCjVWnYaS5m9cZ2f82i5KnP3rwynhjhg@P04z54XCjVWnYaS5m9cZzGQmB0d68D5NYE_wQ',
   'P04z54XCjVWnYaS5m9cZ2f82i5KnP3rwynhjhg@P04z54XCjVWnYaS5m9cZzGQmB0d68D5NYE_wQ',   
   'P04z54XCjVWnYaS5m9cZ2f82i5KnP3rwynhjhg@P04z54XCjVWnYaS5m9cZzGQmB0d68D5NYE_wQ',
+  'P04z54XCjVWnYaS5m9cZ2f82i5KnP3rwynhjhg@P04z54XCjVWnYaS5m9cZzGQmB0d68D5NYE_wQ',
+  'P04z54XCjVWnYaS5m9cZ2f82i5KnP3rwynhjhg@P04z54XCjVWnYaS5m9cZzGQmB0d68D5NYE_wQ',
 ]
 // 判断github action里面是否有东东工厂互助码
 if (process.env.DDFACTORY_SHARECODES) {
